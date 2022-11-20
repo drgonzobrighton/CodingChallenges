@@ -1,4 +1,4 @@
-﻿using System.Linq;
+﻿using System;
 
 namespace CodingChallenges.Collections;
 
@@ -18,6 +18,6 @@ public static class Digitizer
     public static long[] Digitize(long n)
     {
         //Code it!
-        return n.ToString().Reverse().Select(x => long.Parse(x.ToString())).ToArray();
+        throw new NotImplementedException();
     }
 }
