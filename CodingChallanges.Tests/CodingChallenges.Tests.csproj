@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CodingChallanges\CodingChallanges.csproj" />
+    <ProjectReference Include="..\CodingChallanges\CodingChallenges.csproj" />
   </ItemGroup>
 
 </Project>

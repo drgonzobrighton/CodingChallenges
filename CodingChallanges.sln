@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallanges", "CodingChallanges\CodingChallanges.csproj", "{77559D66-AD9A-4EEF-984A-F6F31D882996}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenges", "CodingChallanges\CodingChallenges.csproj", "{77559D66-AD9A-4EEF-984A-F6F31D882996}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallanges.Tests", "CodingChallanges.Tests\CodingChallanges.Tests.csproj", "{251B81EF-BD0C-4995-B559-5B6D02124BB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenges.Tests", "CodingChallanges.Tests\CodingChallenges.Tests.csproj", "{251B81EF-BD0C-4995-B559-5B6D02124BB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

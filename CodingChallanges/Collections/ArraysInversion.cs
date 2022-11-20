@@ -1,4 +1,6 @@
-﻿namespace CodingChallanges.Collections;
+﻿using System;
+
+namespace CodingChallanges.Collections;
 
 /*
 
@@ -6,9 +8,9 @@ Given a set of numbers, return the additive inverse of each. Each positive becom
 
 Examples:
 
-invert([1,2,3,4,5]) == [-1,-2,-3,-4,-5]
-invert([1,-2,3,-4,5]) == [-1,2,-3,4,-5]
-invert([]) == []
+InvertValues([1,2,3,4,5]) == [-1,-2,-3,-4,-5]
+InvertValues([1,-2,3,-4,5]) == [-1,2,-3,4,-5]
+InvertValues([]) == []
 
  */
 public static class ArraysInversion
