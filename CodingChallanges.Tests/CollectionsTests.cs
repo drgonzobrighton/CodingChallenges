@@ -1,9 +1,8 @@
-﻿using CodingChallanges.Collections;
-using CodingChallenges.Collections;
+﻿using CodingChallenges.Collections;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CodingChallanges.Tests;
+namespace CodingChallenges.Tests;
 
 [TestClass]
 public class CollectionsTests

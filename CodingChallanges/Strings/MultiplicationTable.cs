@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CodingChallanges.Strings;
+namespace CodingChallenges.Strings;
 
 /*
 

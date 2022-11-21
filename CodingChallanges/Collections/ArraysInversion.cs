@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CodingChallanges.Collections;
+namespace CodingChallenges.Collections;
 
 /*
 

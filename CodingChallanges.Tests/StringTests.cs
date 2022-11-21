@@ -1,8 +1,8 @@
-﻿using CodingChallanges.Strings;
+﻿using CodingChallenges.Strings;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CodingChallanges.Tests;
+namespace CodingChallenges.Tests;
 
 [TestClass]
 public class StringTests
@@ -13,5 +13,13 @@ public class StringTests
     public void MultiTable_ReturnsExpectedResult(int number, string expectedOutput)
     {
         MultiplicationTable.MultiTable(number).Should().BeEquivalentTo(expectedOutput);
+    }
+
+    [TestMethod]
+    [DataRow(new[] { "1:0", "2:0", "3:0", "4:0", "2:1", "3:1", "4:1", "3:2", "4:2", "4:3" }, 30)]
+    [DataRow(new[] { "1:1", "2:2", "3:3", "4:4", "2:2", "3:3", "4:4", "3:3", "4:4", "4:4" }, 10)]
+    public void TotalPoints_ReturnsExpectedResult(string[] games, int expectedOutput)
+    {
+        TotalPoints.GetTotalPoints(games).Should().Be(expectedOutput);
     }
 }
