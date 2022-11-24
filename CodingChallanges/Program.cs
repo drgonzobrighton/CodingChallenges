@@ -1,5 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using System;
+using CodingChallenges;
 
-Console.WriteLine("Hello, World!");
+
+ScreenLockingPatterns.Test();
+
+Console.ReadLine();
